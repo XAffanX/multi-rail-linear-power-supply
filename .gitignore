@@ -1,0 +1,22 @@
+# KiCad backups and autosaves
+*-backups/
+*.kicad_prl
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+
+# KiCad local history (editor snapshots, not design data)
+.history/
+
+# Generated manufacturing output - regenerate from source
+gerbers/
+*.gbr
+*.drl
+*.step
+*.wrl
+*.net
+
+*.lck
+.DS_Store
+Thumbs.db
